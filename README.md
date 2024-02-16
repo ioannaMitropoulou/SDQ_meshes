@@ -15,3 +15,6 @@ In particular, the code implements;
 - Where output data is saved
 - How to use, basic overview and UI description.
 - Grasshopper visualization and txt files. How to use it.
+
+
+Dependencies and how to install them
