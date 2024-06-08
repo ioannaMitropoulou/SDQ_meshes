@@ -25,7 +25,7 @@ The code was used to generate the print paths layout for the fabrication of a fu
 
 ![Fluid Forms prototype](./illustrations/FluidForms_Dominik_outside_1.jpg)
 
-In addition, the code has been used to generate the layout for the creation of the prototypes presented in the paper **Non-planar 3D Printing of Double Shells**, [doi](TODO), presented in [RobARCH 2024](https://robarch2024.org/).
+In addition, the code has been used to generate the layout for the creation of the prototypes presented in the paper **Non-planar 3D Printing of Double Shells** (link to be added), presented in [RobARCH 2024](https://robarch2024.org/).
 
 ![Prototypes](./illustrations/prototypes_robarch.png)
 
