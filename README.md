@@ -16,11 +16,11 @@ For questions feel free to contact the author Ioanna Mitropoulou: ioan.mitropoul
 ## ⚠️ **Important Note** ⚠️
 
 Following the recent cleanup and update to the latest libraries, a bug has been identified that affects high-genus geometries. This issue impacts the integration step required for seamless parametrization and is currently under investigation. Detailed information about this bug can be found in the following [issue](https://github.com/avaxman/Directional/issues/72).
-As a result, integration will not work on complex models, such as those in `data/batwing` and `data/costa_minimal_surface_Complex`. I am actively working on resolving this issue.
+As a result, the integration step will not work on complex models, such as those in `data/batwing` and `data/costa_minimal_surface_Complex`. I am actively working on resolving this issue.
 
 ---
 
-## Projects 
+## Applications 
 The code was used to generate the print paths layout for the fabrication of a full-scale 2.0-meter tall thin shell geometry for the project [Fluid Forms](https://ioannamitropoulouarch.com/index.php/2023/10/24/fluid-forms-2023/). The print paths are aligned to principal curvature directions, and the rationale behind this choice has been described in the publication: (link to be added). 
 
 ![Fluid Forms prototype](./illustrations/FluidForms_Dominik_outside_1.jpg)
@@ -30,6 +30,11 @@ In addition, the code has been used to generate the layout for the creation of t
 ![Prototypes](./illustrations/prototypes_robarch.png)
 
 ![Costa surface overview](./illustrations/costa_Robarch.jpg)
+
+While SDQ meshes have been applied to nonplanar 3D printing, their underlying representation, which consists of two sets of orthogonal strips can be useful in numerous other fabrication scenarios. 
+Examples of such scenarios include woven structures, surfaces from sheets in crossing directions, warp-weft fabrication, custom rebar, cable-net structures, and the design of secondary transversal structural elements on structural strip patterns.
+
+![Examples of applications of SDQ meshes](./illustrations/costa_Robarch.jpg)
 
 ## Installation
 This code has been tested on Windows 10 and 11. To install on Windows download the repository and its submodules:
