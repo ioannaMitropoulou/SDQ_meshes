@@ -22,18 +22,18 @@ As a result, the integration step will not work on complex models, such as those
 
 ## The logic
 
-The overlay of two transversal and topologically-coupled strip networks, such
-that each network discretizes its counterpart, producing what we call a strip-
-decomposable quad (SDQ) mesh. In this configuration,
+What is an SDQ mesh? It is the overlay of two orthogonal and topologically coupled strip networks, such that each network discretizes its counterpart
+
+![Strips representation](./illustrations/strips_overlay.png)
+*An SDQ mesh (right) is the overlay of two transversal topologically-coupled strip networks.*
+
+In this configuration,
 edges can be two-colored, i.e., we assign a color to every edge so that no
 two neighboring edges sharing a quad have the same color.
 Consequently, all vertices have even valences, and all faces are quadrilaterals,
 except for boundary faces. An SDQ mesh is therefore a quad mesh that can
 be unambiguously decomposed into two independent discrete strip networks
 that share the shame topology and discretization.
-
-![Strips representation](./illustrations/strips_overlay.png)
-*An SDQ mesh (right) is the overlay of two transversal topologically-coupled strip networks.*
 
 ## Applications 
 The SDQ mesh representation generated with this code has been used to create the print paths layout for the fabrication of a full-scale 2.0-meter tall thin shell geometry for the project [Fluid Forms](https://ioannamitropoulouarch.com/index.php/2023/10/24/fluid-forms-2023/). The print paths are aligned to principal curvature directions, and the rationale behind this choice has been described in the publication: (link to be added). 
