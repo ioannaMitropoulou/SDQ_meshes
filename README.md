@@ -17,6 +17,7 @@ For questions feel free to contact the author Ioanna Mitropoulou: ioan.mitropoul
 
 Following the recent cleanup and update to the latest libraries, a bug has been identified that affects high-genus geometries. This issue impacts the integration step required for seamless parametrization and is currently under investigation. Detailed information about this bug can be found in the following [issue](https://github.com/avaxman/Directional/issues/72).
 As a result, integration will not work on complex models, such as those in `data/batwing` and `data/costa_minimal_surface_Complex`. I am actively working on resolving this issue.
+
 ---
 
 ## Projects 
