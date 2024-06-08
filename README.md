@@ -35,7 +35,7 @@ In addition, the code has been used to generate the layout for the creation of t
 This code has been tested on Windows 10 and 11. To install on Windows download the repository and its submodules:
 
 ```console
-git clone --branch cleaning --recurse-submodules https://github.com/ioannaMitropoulou/SDQ_meshes.git
+git clone --recurse-submodules https://github.com/ioannaMitropoulou/SDQ_meshes.git
 ```
 
 Then, go to the `SDQ_meshes` folder, open a shell and call:
