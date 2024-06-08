@@ -21,10 +21,12 @@ As a result, integration will not work on complex models, such as those in `data
 ---
 
 ## Projects 
-The code was used to generate the print paths layout for the fabrication of a full-scale 2.0-meter tall thin shell geometry for the project [Fluid Forms](https://ioannamitropoulouarch.com/index.php/2023/10/24/fluid-forms-2023/). The print paths are aligned to principal curvature directions, and the rationale behind this choice has been described in the publication: To-be-updated. 
+The code was used to generate the print paths layout for the fabrication of a full-scale 2.0-meter tall thin shell geometry for the project [Fluid Forms](https://ioannamitropoulouarch.com/index.php/2023/10/24/fluid-forms-2023/). The print paths are aligned to principal curvature directions, and the rationale behind this choice has been described in the publication: (link to be added). 
+
 ![Fluid Forms prototype](./illustrations/FluidForms_Dominik_outside_1.jpg)
 
 In addition, the code has been used to generate the layout for the creation of the prototypes presented in the paper **Non-planar 3D Printing of Double Shells**, [doi](TODO), presented in [RobARCH 2024](https://robarch2024.org/).
+
 ![Prototypes](./illustrations/prototypes_robarch.png)
 
 ![Costa surface overview](./illustrations/costa_Robarch.jpg)
