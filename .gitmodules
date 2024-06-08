@@ -1,0 +1,6 @@
+[submodule "external/libhedra"]
+	path = external/libhedra
+	url = https://github.com/avaxman/libhedra.git
+[submodule "external/Directional"]
+	path = external/Directional
+	url = https://github.com/avaxman/directional.git
