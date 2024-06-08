@@ -22,7 +22,7 @@ As a result, the integration step will not work on complex models, such as those
 
 ## The logic
 
-What is an SDQ mesh? It is the overlay of two orthogonal and topologically coupled strip networks, such that each network discretizes its counterpart
+What is an SDQ mesh? It is the overlay of two orthogonal and topologically coupled strip networks, such that each network discretizes its counterpart.
 
 ![Strips representation](./illustrations/strips_overlay.png)
 *An SDQ mesh (right) is the overlay of two transversal topologically-coupled strip networks.*
