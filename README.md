@@ -20,21 +20,42 @@ As a result, the integration step will not work on complex models, such as those
 
 ---
 
+## The logic
+
+The overlay of two transversal and topologically-coupled strip networks, such
+that each network discretizes its counterpart, producing what we call a strip-
+decomposable quad (SDQ) mesh. In this configuration,
+edges can be two-colored, i.e., we assign a color to every edge so that no
+two neighboring edges sharing a quad have the same color.
+Consequently, all vertices have even valences, and all faces are quadrilaterals,
+except for boundary faces. An SDQ mesh is therefore a quad mesh that can
+be unambiguously decomposed into two independent discrete strip networks
+that share the shame topology and discretization.
+
+![Strips representation](./illustrations/strips_overlay.png)
+*An SDQ mesh (right) is the overlay of two transversal topologically-coupled strip networks.*
+
 ## Applications 
-The code was used to generate the print paths layout for the fabrication of a full-scale 2.0-meter tall thin shell geometry for the project [Fluid Forms](https://ioannamitropoulouarch.com/index.php/2023/10/24/fluid-forms-2023/). The print paths are aligned to principal curvature directions, and the rationale behind this choice has been described in the publication: (link to be added). 
+The SDQ mesh representation generated with this code has been used to create the print paths layout for the fabrication of a full-scale 2.0-meter tall thin shell geometry for the project [Fluid Forms](https://ioannamitropoulouarch.com/index.php/2023/10/24/fluid-forms-2023/). The print paths are aligned to principal curvature directions, and the rationale behind this choice has been described in the publication: (link to be added). 
 
 ![Fluid Forms prototype](./illustrations/FluidForms_Dominik_outside_1.jpg)
+*Fluid forms full scale prototype fabricated with nonplanar paths.*
 
-In addition, the code has been used to generate the layout for the creation of the prototypes presented in the paper **Non-planar 3D Printing of Double Shells** (link to be added), presented in [RobARCH 2024](https://robarch2024.org/).
+In addition, the code was used to generate the layout for the creation of the prototypes presented in the paper **Non-planar 3D Printing of Double Shells** (link to be added), presented in [RobARCH 2024](https://robarch2024.org/).
 
 ![Prototypes](./illustrations/prototypes_robarch.png)
+*Various prototypes presented in RobARCH.*
 
 ![Costa surface overview](./illustrations/costa_Robarch.jpg)
+*Costa minimal surface prototype fabricated with paths aligned to principal curvature directions.*
 
 While SDQ meshes have been applied to nonplanar 3D printing, their underlying representation, which consists of two sets of orthogonal strips can be useful in numerous other fabrication scenarios. 
 Examples of such scenarios include woven structures, surfaces from sheets in crossing directions, warp-weft fabrication, custom rebar, cable-net structures, and the design of secondary transversal structural elements on structural strip patterns.
 
-![Examples of applications of SDQ meshes](./illustrations/costa_Robarch.jpg)
+![Examples of applications of SDQ meshes](./illustrations/applications_of_SDQ_meshes.png)
+
+*Examples of applications of SDQ meshes. Left: Minima Maxima world expo pavilion, by TheVeryMany, Marc Fornes. Middle: Bertoia diamond chair, by Harry Bertoia. Right: NEST HiLo roof - Full-scale construction prototype, by Block Research Group*
+
 
 ## Installation
 This code has been tested on Windows 10 and 11. To install on Windows download the repository and its submodules:
